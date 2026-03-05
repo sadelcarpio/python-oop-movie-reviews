@@ -1,0 +1,6 @@
+[project]
+name = "python-oop-movie-reviews"
+version = "0.1.0"
+description = "Proyecto de Programación Orientada a Objetos: Sistema de Reseñas de Películas"
+requires-python = ">=3.10"
+dependencies = []
