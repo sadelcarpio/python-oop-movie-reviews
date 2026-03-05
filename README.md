@@ -26,7 +26,7 @@ ejemplo: `kinoReviewsManager.add_review(user: User, movie: Movie, *review_data)`
 - Cada película tiene los atributos: `num_reviews` y `average_rating` que se irá modificando de la misma forma a medida que reciben reseñas.
 
 - `KinoReviewsManager` podrá tambien mostrar una lista de las películas con mejores puntajes, así como la mayor cantidad de reseñas.
-ejemplo: `kinoReviewsManager.show_top_rated_movies()`, `kinoReviewsManager.show_best_rated_movies()`
+ejemplo: `kinoReviewsManager.show_top_rated_movies()`, `kinoReviewsManager.show_most_reviewed_movies()`
 
 - Finalmente, `kinoReviewsManager` tendrá la opción de exportar los datos a un archivo CSV, con el siguiente formato:
 `user_id,movie_id,rating,review`
