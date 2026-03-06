@@ -19,7 +19,7 @@ Sobre las reseñas: Se sugiere crear una Clase `KinoReviewsManager` que permita:
 - Los usuarios pueden dejar una sola reseña sobre una película. La clase `Review` debería contener un identificador, el usuario 
 (la forma más fácil sería asignar un id a cada usuario), la película (de la misma manera, un identificador por película), calificación en estrellas (del 1 al 5) y 
 texto de la reseña (opcional, puede no darse). Estas reseñas pueden ser editadas o eliminadas.
-ejemplo: `kinoReviewsManager.add_review(user: User, movie: Movie, *review_data)`
+ejemplo: `kinoReviewsManager.add_review(user: User, movie: Movie, rating: int, review_text: str = None)`
 
 - Cada usuario tiene los atributos: `num_reviews_given` y `average_rating_given` los cuales van modificándose a medida que siguen haciendo reseñas.
 
@@ -38,6 +38,9 @@ elabora un diagrama que te permita describir claramente las relaciones entre las
 
 2. Construcción de objetos. Piensa qué datos son necesarios para construir los objetos de una clase, y además, quién sería el 
 responsable de construirlos (el usuario mediante el programa, la clase `MovieCatalog`, la clase `KinoReviewsManager`, etc.)
+
+3. Manejo de errores. Piensa qué partes del programa pueden generar errores (por ejemplo, tratar de crear un review dos veces, 
+dar un rating fuera del rango 1-5). Con `try` y `except` puedes manejar estos errores de manera adecuada.
 
 ## Sugerencias / Ayuda
 Preguntar a Sergio en el canal de WhatsApp.
