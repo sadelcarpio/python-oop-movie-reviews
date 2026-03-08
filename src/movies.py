@@ -10,5 +10,5 @@ class MovieCatalog:
     def add_movie(self, title: str, description: str, release_date: str, director: str, genres: list[str]):
         pass
 
-    def get_movie(self, movie_id: str):
+    def get_movie(self, movie_id: int):
         pass

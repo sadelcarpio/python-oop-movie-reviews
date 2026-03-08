@@ -10,6 +10,6 @@ class UsersDb:
     def add_user(self, user_email: str) -> int:
         pass
 
-    def get_user(self, user_id: str):
+    def get_user(self, user_id: int):
         pass
 
