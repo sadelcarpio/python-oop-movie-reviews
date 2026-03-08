@@ -12,4 +12,3 @@ class UsersDb:
 
     def get_user(self, user_id: int):
         pass
-
