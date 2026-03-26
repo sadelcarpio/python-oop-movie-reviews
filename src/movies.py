@@ -12,3 +12,4 @@ class MovieCatalog:
 
     def get_movie(self, movie_id: int):
         pass
+
